@@ -1,0 +1,2032 @@
+↑isRoot: true
+comment: My First Page as root page
+preloadPriority: high
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: path-to-xfirst
+title: First page
+↓Header [ngx.components.UIDynamicElement-1491634212350]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Page header
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1491634231108]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    tagName: ion-toolbar
+    ↓ButtonSet1 [ngx.components.UIDynamicElement-1588171103814]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      tagName: ion-buttons
+      ↓BackButton [ngx.components.UIDynamicElement-1643993281257]: 
+        beanData: '{"ionBean":"BackButton"}'
+        tagName: ion-back-button
+      ↓MenuButton [ngx.components.UIDynamicElement-1588172846908]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1491634265317]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1491634275121]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Tableau de bord
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1588170811054]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      tagName: ion-buttons
+      ↓Button [ngx.components.UIDynamicElement-1588170817806]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: ion-button
+        ↓Icon [ngx.components.UIDynamicElement-1588170831166]: 
+          beanData: |
+            '{
+             "ionBean": "Icon",
+             "IconName": "plain:ellipsis-vertical",
+             "IconMdName": "plain",
+             "IconIosName": "plain"
+            }'
+          tagName: ion-icon
+↓Content [ngx.components.UIDynamicElement-1489674805352]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Page content
+  tagName: ion-content
+  ↓Grid [ngx.components.UIDynamicElement-1667222069623]: 
+    beanData: '{"ionBean":"Grid","Height":"plain:100%"}'
+    tagName: ion-grid
+    ↓rowBreadcrumb [ngx.components.UIDynamicElement-1667222069625]: 
+      beanData: '{"ionBean":"GridRow","Height":"plain"}'
+      tagName: ion-row
+      ↓colBreadcrumb [ngx.components.UIDynamicElement-1667222069627]: 
+        beanData: '{"ionBean":"GridCol"}'
+        tagName: ion-col
+        ↓Breadcrumbs [ngx.components.UIDynamicElement-1667222118547]: 
+          beanData: '{"ionBean":"Breadcrumbs"}'
+          tagName: ion-breadcrumbs
+          ↓Breadcrumb [ngx.components.UIDynamicElement-1667222118549]: 
+            beanData: '{"ionBean":"Breadcrumb"}'
+            tagName: ion-breadcrumb
+            ↓Text [ngx.components.UIText-1667222118551]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Accueil
+            ↓Style [ngx.components.UIStyle-1667232557734]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      '/**
+                       * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                       * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                       * They are set using custom property notation, e.g.: --main-color: black;
+                       * and are accessed using the var() function, e.g.: color: var(--main-color);
+                       * You can find below your component''s properties you can customize within the page.
+                       * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                       * For more informations see https://ionicframework.com/docs/theming.
+                      **/
+                      //--background-focused	//Background color of the breadcrumb when focused
+                      //--color	//Text color of the breadcrumb
+                      //--color-active	//Text color of the active breadcrumb
+                      //--color-focused	//Text color of the breadcrumb when focused
+                      //--color-hover	//Text color of the breadcrumb on hover
+                      --color: #4BBBE5;
+                      '
+          ↓Breadcrumb1 [ngx.components.UIDynamicElement-1667222118553]: 
+            beanData: '{"ionBean":"Breadcrumb"}'
+            tagName: ion-breadcrumb
+            ↓Text [ngx.components.UIText-1667222118555]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Tableau de bord
+      ↓Style [ngx.components.UIStyle-1667232673302]: 
+        styleContent: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+            - com.twinsoft.convertigo.beans.common.FormatedContent: 
+              →: |
+                '	background-color: #FFFFFF;
+                '
+    ↓rowCards [ngx.components.UIDynamicElement-1667226583975]: 
+      beanData: '{"ionBean":"GridRow","Height":"plain"}'
+      tagName: ion-row
+      ↓GridCol [ngx.components.UIDynamicElement-1667226583977]: 
+        beanData: '{"ionBean":"GridCol","Size":"plain:3"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1667227200837]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓CardContent [ngx.components.UIDynamicElement-1667227200855]: 
+            beanData: '{"ionBean":"CardContent"}'
+            tagName: ion-card-content
+            ↓TextItem [ngx.components.UIDynamicElement-1667227200857]: 
+              beanData: '{"ionBean":"TextItem"}'
+              tagName: ion-text
+              ↓Text [ngx.components.UIText-1667227200859]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:Mes patients
+            ↓Style [ngx.components.UIStyle-1667228094936]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      'font-size: 24px !important;
+                      '
+          ↓Style [ngx.components.UIStyle-1667227569605]: 
+            styleContent: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                  →: |
+                    '/**
+                     * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                     * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                     * They are set using custom property notation, e.g.: --main-color: black;
+                     * and are accessed using the var() function, e.g.: color: var(--main-color);
+                     * You can find below your component''s properties you can customize within the page.
+                     * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                     * For more informations see https://ionicframework.com/docs/theming.
+                    **/
+                    //--background	//Background of the card
+                    //--color	//Color of the card
+                    --background: #20A8D8;
+                    --color: #ffffff;
+                    text-align: center;
+                    box-shadow: unset;
+                    height: 100%;
+                    '
+      ↓GridCol1 [ngx.components.UIDynamicElement-1667226957535]: 
+        beanData: '{"ionBean":"GridCol","Size":"plain:3"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1667228139064]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓CardContent [ngx.components.UIDynamicElement-1667228139067]: 
+            beanData: '{"ionBean":"CardContent"}'
+            tagName: ion-card-content
+            ↓TextItem [ngx.components.UIDynamicElement-1667228139070]: 
+              beanData: '{"ionBean":"TextItem"}'
+              tagName: ion-text
+              ↓Text [ngx.components.UIText-1667228139073]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:Pré-admision
+              ↓Break [ngx.components.UIDynamicElement-1667228616723]: 
+                beanData: '{"ionBean":"Break"}'
+                selfClose: true
+                tagName: br
+              ↓Text1 [ngx.components.UIText-1667228625042]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:0
+            ↓Style [ngx.components.UIStyle-1667228139076]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      'font-size: 24px !important;
+                      '
+          ↓Style [ngx.components.UIStyle-1667228139079]: 
+            styleContent: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                  →: |
+                    '/**
+                     * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                     * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                     * They are set using custom property notation, e.g.: --main-color: black;
+                     * and are accessed using the var() function, e.g.: color: var(--main-color);
+                     * You can find below your component''s properties you can customize within the page.
+                     * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                     * For more informations see https://ionicframework.com/docs/theming.
+                    **/
+                    //--background	//Background of the card
+                    //--color	//Color of the card
+                    --background: #63CEDE;
+                    --color: #ffffff;
+                    text-align: center;
+                    box-shadow: unset;
+                    height: 100%;
+                    '
+      ↓GridCol2 [ngx.components.UIDynamicElement-1667226963356]: 
+        beanData: '{"ionBean":"GridCol","Size":"plain:3"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1667228984814]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓CardContent [ngx.components.UIDynamicElement-1667228984817]: 
+            beanData: '{"ionBean":"CardContent"}'
+            tagName: ion-card-content
+            ↓TextItem [ngx.components.UIDynamicElement-1667228984820]: 
+              beanData: '{"ionBean":"TextItem"}'
+              tagName: ion-text
+              ↓Text [ngx.components.UIText-1667228984823]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:Dossier en cours
+              ↓Break [ngx.components.UIDynamicElement-1667228984826]: 
+                beanData: '{"ionBean":"Break"}'
+                selfClose: true
+                tagName: br
+              ↓Text1 [ngx.components.UIText-1667228984829]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:24
+            ↓Style [ngx.components.UIStyle-1667228984832]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      'font-size: 24px !important;
+                      '
+          ↓Style [ngx.components.UIStyle-1667228984835]: 
+            styleContent: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                  →: |
+                    '/**
+                     * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                     * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                     * They are set using custom property notation, e.g.: --main-color: black;
+                     * and are accessed using the var() function, e.g.: color: var(--main-color);
+                     * You can find below your component''s properties you can customize within the page.
+                     * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                     * For more informations see https://ionicframework.com/docs/theming.
+                    **/
+                    //--background	//Background of the card
+                    //--color	//Color of the card
+                    --background: #20A8D8;
+                    --color: #ffffff;
+                    text-align: center;
+                    box-shadow: unset;
+                    height: 100%;
+                    '
+      ↓GridCol3 [ngx.components.UIDynamicElement-1667226964677]: 
+        beanData: '{"ionBean":"GridCol","Size":"plain:3"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1667229234304]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓CardContent [ngx.components.UIDynamicElement-1667229234307]: 
+            beanData: '{"ionBean":"CardContent"}'
+            tagName: ion-card-content
+            ↓TextItem [ngx.components.UIDynamicElement-1667229234310]: 
+              beanData: '{"ionBean":"TextItem"}'
+              tagName: ion-text
+              ↓Text [ngx.components.UIText-1667229234313]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:En préparation de sortie
+              ↓Break [ngx.components.UIDynamicElement-1667229234316]: 
+                beanData: '{"ionBean":"Break"}'
+                selfClose: true
+                tagName: br
+              ↓Text1 [ngx.components.UIText-1667229234319]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:3
+            ↓Style [ngx.components.UIStyle-1667229234322]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      'font-size: 24px !important;
+                      '
+          ↓Style [ngx.components.UIStyle-1667229234325]: 
+            styleContent: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                  →: |
+                    '/**
+                     * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                     * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                     * They are set using custom property notation, e.g.: --main-color: black;
+                     * and are accessed using the var() function, e.g.: color: var(--main-color);
+                     * You can find below your component''s properties you can customize within the page.
+                     * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                     * For more informations see https://ionicframework.com/docs/theming.
+                    **/
+                    //--background	//Background of the card
+                    //--color	//Color of the card
+                    --background: #17A2B8;
+                    --color: #ffffff;
+                    text-align: center;
+                    box-shadow: unset;
+                    height: 100%;
+                    '
+      ↓GridCol4 [ngx.components.UIDynamicElement-1667226968093]: 
+        beanData: '{"ionBean":"GridCol"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1667229324580]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓CardContent [ngx.components.UIDynamicElement-1667229324583]: 
+            beanData: '{"ionBean":"CardContent"}'
+            tagName: ion-card-content
+            ↓TextItem [ngx.components.UIDynamicElement-1667229324586]: 
+              beanData: '{"ionBean":"TextItem"}'
+              tagName: ion-text
+              ↓Text [ngx.components.UIText-1667229324589]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:En cours de sortie
+              ↓Break [ngx.components.UIDynamicElement-1667229324592]: 
+                beanData: '{"ionBean":"Break"}'
+                selfClose: true
+                tagName: br
+              ↓Text1 [ngx.components.UIText-1667229324595]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:0
+            ↓Style [ngx.components.UIStyle-1667229324598]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      'font-size: 24px !important;
+                      '
+          ↓Style [ngx.components.UIStyle-1667229324601]: 
+            styleContent: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                  →: |
+                    '/**
+                     * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                     * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                     * They are set using custom property notation, e.g.: --main-color: black;
+                     * and are accessed using the var() function, e.g.: color: var(--main-color);
+                     * You can find below your component''s properties you can customize within the page.
+                     * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                     * For more informations see https://ionicframework.com/docs/theming.
+                    **/
+                    //--background	//Background of the card
+                    //--color	//Color of the card
+                    --background: #007EE5;
+                    --color: #ffffff;
+                    text-align: center;
+                    box-shadow: unset;
+                    height: 100%;
+                    '
+      ↓GridCol5 [ngx.components.UIDynamicElement-1667227020781]: 
+        beanData: '{"ionBean":"GridCol","Size":"plain:3"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1667229431517]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓CardContent [ngx.components.UIDynamicElement-1667229431520]: 
+            beanData: '{"ionBean":"CardContent"}'
+            tagName: ion-card-content
+            ↓TextItem [ngx.components.UIDynamicElement-1667229431523]: 
+              beanData: '{"ionBean":"TextItem"}'
+              tagName: ion-text
+              ↓Text [ngx.components.UIText-1667229431526]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:Dossier clos
+              ↓Break [ngx.components.UIDynamicElement-1667229431529]: 
+                beanData: '{"ionBean":"Break"}'
+                selfClose: true
+                tagName: br
+              ↓Text1 [ngx.components.UIText-1667229431532]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:3129
+            ↓Style [ngx.components.UIStyle-1667229431535]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      'font-size: 24px !important;
+                      '
+          ↓Style [ngx.components.UIStyle-1667229431538]: 
+            styleContent: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                  →: |
+                    '/**
+                     * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                     * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                     * They are set using custom property notation, e.g.: --main-color: black;
+                     * and are accessed using the var() function, e.g.: color: var(--main-color);
+                     * You can find below your component''s properties you can customize within the page.
+                     * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                     * For more informations see https://ionicframework.com/docs/theming.
+                    **/
+                    //--background	//Background of the card
+                    //--color	//Color of the card
+                    --background: #FFC107;
+                    --color: #ffffff;
+                    text-align: center;
+                    box-shadow: unset;
+                    height: 100%;
+                    '
+      ↓GridCol6 [ngx.components.UIDynamicElement-1667227021807]: 
+        beanData: '{"ionBean":"GridCol","Size":"plain:3"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1667229503682]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓CardContent [ngx.components.UIDynamicElement-1667229503685]: 
+            beanData: '{"ionBean":"CardContent"}'
+            tagName: ion-card-content
+            ↓TextItem [ngx.components.UIDynamicElement-1667229503688]: 
+              beanData: '{"ionBean":"TextItem"}'
+              tagName: ion-text
+              ↓Text [ngx.components.UIText-1667229503691]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:Sign. consentement en attente
+              ↓Break [ngx.components.UIDynamicElement-1667229503694]: 
+                beanData: '{"ionBean":"Break"}'
+                selfClose: true
+                tagName: br
+              ↓Text1 [ngx.components.UIText-1667229503697]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:7
+            ↓Style [ngx.components.UIStyle-1667229503700]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      'font-size: 24px !important;
+                      '
+          ↓Style [ngx.components.UIStyle-1667229503703]: 
+            styleContent: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                  →: |
+                    '/**
+                     * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                     * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                     * They are set using custom property notation, e.g.: --main-color: black;
+                     * and are accessed using the var() function, e.g.: color: var(--main-color);
+                     * You can find below your component''s properties you can customize within the page.
+                     * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                     * For more informations see https://ionicframework.com/docs/theming.
+                    **/
+                    //--background	//Background of the card
+                    //--color	//Color of the card
+                    --background: #F66B6A;
+                    --color: #ffffff;
+                    text-align: center;
+                    box-shadow: unset;
+                    height: 100%;
+                    '
+      ↓GridCol7 [ngx.components.UIDynamicElement-1667227022955]: 
+        beanData: '{"ionBean":"GridCol","Size":"plain:3"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1667229581267]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓CardContent [ngx.components.UIDynamicElement-1667229581270]: 
+            beanData: '{"ionBean":"CardContent"}'
+            tagName: ion-card-content
+            ↓TextItem [ngx.components.UIDynamicElement-1667229581273]: 
+              beanData: '{"ionBean":"TextItem"}'
+              tagName: ion-text
+              ↓Text [ngx.components.UIText-1667229581276]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:En convalescence
+              ↓Break [ngx.components.UIDynamicElement-1667229581279]: 
+                beanData: '{"ionBean":"Break"}'
+                selfClose: true
+                tagName: br
+              ↓Text1 [ngx.components.UIText-1667229581282]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:126
+            ↓Style [ngx.components.UIStyle-1667229581285]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      'font-size: 24px !important;
+                      '
+          ↓Style [ngx.components.UIStyle-1667229581288]: 
+            styleContent: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                  →: |
+                    '/**
+                     * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                     * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                     * They are set using custom property notation, e.g.: --main-color: black;
+                     * and are accessed using the var() function, e.g.: color: var(--main-color);
+                     * You can find below your component''s properties you can customize within the page.
+                     * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                     * For more informations see https://ionicframework.com/docs/theming.
+                    **/
+                    //--background	//Background of the card
+                    //--color	//Color of the card
+                    --background: #F56B6A;
+                    --color: #ffffff;
+                    text-align: center;
+                    box-shadow: unset;
+                    height: 100%;
+                    '
+      ↓GridCol8 [ngx.components.UIDynamicElement-1667227024898]: 
+        beanData: '{"ionBean":"GridCol","Size":"plain:3"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1667229698152]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓CardContent [ngx.components.UIDynamicElement-1667229698155]: 
+            beanData: '{"ionBean":"CardContent"}'
+            tagName: ion-card-content
+            ↓TextItem [ngx.components.UIDynamicElement-1667229698158]: 
+              beanData: '{"ionBean":"TextItem"}'
+              tagName: ion-text
+              ↓Text [ngx.components.UIText-1667229698161]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:Sortie sans prise en charge
+              ↓Break [ngx.components.UIDynamicElement-1667229698164]: 
+                beanData: '{"ionBean":"Break"}'
+                selfClose: true
+                tagName: br
+              ↓Text1 [ngx.components.UIText-1667229698167]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:0
+            ↓Style [ngx.components.UIStyle-1667229698170]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      'font-size: 24px !important;
+                      '
+          ↓Style [ngx.components.UIStyle-1667229698173]: 
+            styleContent: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                  →: |
+                    '/**
+                     * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                     * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                     * They are set using custom property notation, e.g.: --main-color: black;
+                     * and are accessed using the var() function, e.g.: color: var(--main-color);
+                     * You can find below your component''s properties you can customize within the page.
+                     * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                     * For more informations see https://ionicframework.com/docs/theming.
+                    **/
+                    //--background	//Background of the card
+                    //--color	//Color of the card
+                    --background: #F86B6A;
+                    --color: #ffffff;
+                    text-align: center;
+                    box-shadow: unset;
+                    height: 100%;
+                    '
+    ↓GridRow [ngx.components.UIDynamicElement-1667230723204]: 
+      beanData: '{"ionBean":"GridRow","Height":"plain"}'
+      tagName: ion-row
+      ↓colEtablissement [ngx.components.UIDynamicElement-1667230723206]: 
+        beanData: '{"ionBean":"GridCol"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1667230765096]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓CardHeader [ngx.components.UIDynamicElement-1667230765101]: 
+            beanData: '{"ionBean":"CardHeader"}'
+            tagName: ion-card-header
+            ↓CardTitle [ngx.components.UIDynamicElement-1667230765103]: 
+              beanData: '{"ionBean":"CardTitle"}'
+              tagName: ion-card-title
+              ↓TextItem [ngx.components.UIDynamicElement-1667230765105]: 
+                beanData: '{"ionBean":"TextItem"}'
+                tagName: ion-text
+                ↓Text [ngx.components.UIText-1667230765107]: 
+                  textValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                      - MobileSmartSourceType: plain:Etablissement
+            ↓Style [ngx.components.UIStyle-1667231515969]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      '	background-color: #E8E9EB;
+                      	border-bottom: 1px solid #D4D5D7;
+                      	box-shadow: unset;
+                      '
+          ↓CardContent [ngx.components.UIDynamicElement-1667230765115]: 
+            beanData: '{"ionBean":"CardContent"}'
+            tagName: ion-card-content
+            ↓Grid [ngx.components.UIDynamicElement-1667230787249]: 
+              beanData: '{"ionBean":"Grid","Height":"plain:100%"}'
+              tagName: ion-grid
+              ↓GridRow [ngx.components.UIDynamicElement-1667230787255]: 
+                beanData: |
+                  '{
+                   "ionBean": "GridRow",
+                   "Height": "plain",
+                   "FlexAlignement": "plain:ion-align-items-baseline"
+                  }'
+                tagName: ion-row
+                ↓GridCol [ngx.components.UIDynamicElement-1667230787257]: 
+                  beanData: '{"ionBean":"GridCol"}'
+                  tagName: ion-col
+                  ↓Text [ngx.components.UIText-1667230787261]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                        - MobileSmartSourceType: plain:AVICENNE, CHU BOBIGNY AP.HP
+                  ↓Style [ngx.components.UIStyle-1667231266279]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            font-size: 15px !important;
+                            '
+                ↓GridCol1 [ngx.components.UIDynamicElement-1667230787263]: 
+                  beanData: '{"ionBean":"GridCol","FlexAlignement":"plain:ion-align-self-baseline"}'
+                  tagName: ion-col
+                  ↓Chip [ngx.components.UIDynamicElement-1667231039637]: 
+                    beanData: '{"ionBean":"Chip"}'
+                    tagName: ion-chip
+                    ↓Label [ngx.components.UIDynamicElement-1667231039639]: 
+                      beanData: '{"ionBean":"Label"}'
+                      tagName: ion-label
+                      ↓Text [ngx.components.UIText-1667231039641]: 
+                        textValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                            - MobileSmartSourceType: plain:114
+                    ↓Style [ngx.components.UIStyle-1667231870570]: 
+                      styleContent: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                            →: |
+                              '/**
+                               * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                               * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                               * They are set using custom property notation, e.g.: --main-color: black;
+                               * and are accessed using the var() function, e.g.: color: var(--main-color);
+                               * You can find below your component''s properties you can customize within the page.
+                               * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                               * For more informations see https://ionicframework.com/docs/theming.
+                              **/
+                              //--background	//Background of the chip
+                              //--color	//Color of the chip
+                              --background: #96B6D4;
+                              '
+                  ↓Style [ngx.components.UIStyle-1667231070980]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            text-align: right;
+                            '
+                ↓Style [ngx.components.UIStyle-1667231472309]: 
+                  styleContent: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                        →: |
+                          '	background-color: #F7F7F7;
+                          '
+              ↓GridRow1 [ngx.components.UIDynamicElement-1667231429191]: 
+                beanData: |
+                  '{
+                   "ionBean": "GridRow",
+                   "Height": "plain",
+                   "FlexAlignement": "plain:ion-align-items-baseline"
+                  }'
+                tagName: ion-row
+                ↓GridCol [ngx.components.UIDynamicElement-1667231429194]: 
+                  beanData: '{"ionBean":"GridCol"}'
+                  tagName: ion-col
+                  ↓Text [ngx.components.UIText-1667231429197]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                        - MobileSmartSourceType: plain:BICHAT, CHU PARIS AP.HP
+                  ↓Style [ngx.components.UIStyle-1667231429200]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            font-size: 15px !important;
+                            '
+                ↓GridCol1 [ngx.components.UIDynamicElement-1667231429203]: 
+                  beanData: '{"ionBean":"GridCol","FlexAlignement":"plain:ion-align-self-baseline"}'
+                  tagName: ion-col
+                  ↓Chip [ngx.components.UIDynamicElement-1667231429206]: 
+                    beanData: '{"ionBean":"Chip"}'
+                    tagName: ion-chip
+                    ↓Label [ngx.components.UIDynamicElement-1667231429209]: 
+                      beanData: '{"ionBean":"Label"}'
+                      tagName: ion-label
+                      ↓Text [ngx.components.UIText-1667231429212]: 
+                        textValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                            - MobileSmartSourceType: plain:1
+                    ↓Style [ngx.components.UIStyle-1667231910034]: 
+                      styleContent: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                            →: |
+                              '/**
+                               * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                               * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                               * They are set using custom property notation, e.g.: --main-color: black;
+                               * and are accessed using the var() function, e.g.: color: var(--main-color);
+                               * You can find below your component''s properties you can customize within the page.
+                               * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                               * For more informations see https://ionicframework.com/docs/theming.
+                              **/
+                              //--background	//Background of the chip
+                              //--color	//Color of the chip
+                              --background: #96B6D4;
+                              '
+                  ↓Style [ngx.components.UIStyle-1667231429215]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            text-align: right;
+                            '
+              ↓Style [ngx.components.UIStyle-1667231992377]: 
+                styleContent: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                      →: |
+                        '	padding: unset !important;
+                        '
+              ↓GridRow2 [ngx.components.UIDynamicElement-1667232034369]: 
+                beanData: |
+                  '{
+                   "ionBean": "GridRow",
+                   "Height": "plain",
+                   "FlexAlignement": "plain:ion-align-items-baseline"
+                  }'
+                tagName: ion-row
+                ↓GridCol [ngx.components.UIDynamicElement-1667232034372]: 
+                  beanData: '{"ionBean":"GridCol"}'
+                  tagName: ion-col
+                  ↓Text [ngx.components.UIText-1667232034375]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                        - MobileSmartSourceType: plain:CH ABBEVILLE
+                  ↓Style [ngx.components.UIStyle-1667232034378]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            font-size: 15px !important;
+                            '
+                ↓GridCol1 [ngx.components.UIDynamicElement-1667232034381]: 
+                  beanData: '{"ionBean":"GridCol","FlexAlignement":"plain:ion-align-self-baseline"}'
+                  tagName: ion-col
+                  ↓Chip [ngx.components.UIDynamicElement-1667232034384]: 
+                    beanData: '{"ionBean":"Chip"}'
+                    tagName: ion-chip
+                    ↓Label [ngx.components.UIDynamicElement-1667232034387]: 
+                      beanData: '{"ionBean":"Label"}'
+                      tagName: ion-label
+                      ↓Text [ngx.components.UIText-1667232034390]: 
+                        textValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                            - MobileSmartSourceType: plain:1
+                    ↓Style [ngx.components.UIStyle-1667232034393]: 
+                      styleContent: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                            →: |
+                              '/**
+                               * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                               * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                               * They are set using custom property notation, e.g.: --main-color: black;
+                               * and are accessed using the var() function, e.g.: color: var(--main-color);
+                               * You can find below your component''s properties you can customize within the page.
+                               * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                               * For more informations see https://ionicframework.com/docs/theming.
+                              **/
+                              //--background	//Background of the chip
+                              //--color	//Color of the chip
+                              --background: #96B6D4;
+                              '
+                  ↓Style [ngx.components.UIStyle-1667232034396]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            text-align: right;
+                            '
+                ↓Style [ngx.components.UIStyle-1667232034399]: 
+                  styleContent: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                        →: |
+                          '	background-color: #F7F7F7;
+                          '
+              ↓GridRow3 [ngx.components.UIDynamicElement-1667232053749]: 
+                beanData: |
+                  '{
+                   "ionBean": "GridRow",
+                   "Height": "plain",
+                   "FlexAlignement": "plain:ion-align-items-baseline"
+                  }'
+                tagName: ion-row
+                ↓GridCol [ngx.components.UIDynamicElement-1667232053752]: 
+                  beanData: '{"ionBean":"GridCol"}'
+                  tagName: ion-col
+                  ↓Text [ngx.components.UIText-1667232053755]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                        - MobileSmartSourceType: plain:CH AVRANCHES GRANVILLE
+                  ↓Style [ngx.components.UIStyle-1667232053758]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            font-size: 15px !important;
+                            '
+                ↓GridCol1 [ngx.components.UIDynamicElement-1667232053761]: 
+                  beanData: '{"ionBean":"GridCol","FlexAlignement":"plain:ion-align-self-baseline"}'
+                  tagName: ion-col
+                  ↓Chip [ngx.components.UIDynamicElement-1667232053764]: 
+                    beanData: '{"ionBean":"Chip"}'
+                    tagName: ion-chip
+                    ↓Label [ngx.components.UIDynamicElement-1667232053767]: 
+                      beanData: '{"ionBean":"Label"}'
+                      tagName: ion-label
+                      ↓Text [ngx.components.UIText-1667232053770]: 
+                        textValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                            - MobileSmartSourceType: plain:1
+                    ↓Style [ngx.components.UIStyle-1667232053773]: 
+                      styleContent: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                            →: |
+                              '/**
+                               * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                               * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                               * They are set using custom property notation, e.g.: --main-color: black;
+                               * and are accessed using the var() function, e.g.: color: var(--main-color);
+                               * You can find below your component''s properties you can customize within the page.
+                               * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                               * For more informations see https://ionicframework.com/docs/theming.
+                              **/
+                              //--background	//Background of the chip
+                              //--color	//Color of the chip
+                              --background: #96B6D4;
+                              '
+                  ↓Style [ngx.components.UIStyle-1667232053776]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            text-align: right;
+                            '
+              ↓GridRow4 [ngx.components.UIDynamicElement-1667232073423]: 
+                beanData: |
+                  '{
+                   "ionBean": "GridRow",
+                   "Height": "plain",
+                   "FlexAlignement": "plain:ion-align-items-baseline"
+                  }'
+                tagName: ion-row
+                ↓GridCol [ngx.components.UIDynamicElement-1667232073426]: 
+                  beanData: '{"ionBean":"GridCol"}'
+                  tagName: ion-col
+                  ↓Text [ngx.components.UIText-1667232073429]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                        - MobileSmartSourceType: plain:CH BRETAGNE ATLANTIQUE, VANNES
+                  ↓Style [ngx.components.UIStyle-1667232073432]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            font-size: 15px !important;
+                            '
+                ↓GridCol1 [ngx.components.UIDynamicElement-1667232073435]: 
+                  beanData: '{"ionBean":"GridCol","FlexAlignement":"plain:ion-align-self-baseline"}'
+                  tagName: ion-col
+                  ↓Chip [ngx.components.UIDynamicElement-1667232073438]: 
+                    beanData: '{"ionBean":"Chip"}'
+                    tagName: ion-chip
+                    ↓Label [ngx.components.UIDynamicElement-1667232073441]: 
+                      beanData: '{"ionBean":"Label"}'
+                      tagName: ion-label
+                      ↓Text [ngx.components.UIText-1667232073444]: 
+                        textValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                            - MobileSmartSourceType: plain:2
+                    ↓Style [ngx.components.UIStyle-1667232073447]: 
+                      styleContent: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                            →: |
+                              '/**
+                               * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                               * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                               * They are set using custom property notation, e.g.: --main-color: black;
+                               * and are accessed using the var() function, e.g.: color: var(--main-color);
+                               * You can find below your component''s properties you can customize within the page.
+                               * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                               * For more informations see https://ionicframework.com/docs/theming.
+                              **/
+                              //--background	//Background of the chip
+                              //--color	//Color of the chip
+                              --background: #96B6D4;
+                              '
+                  ↓Style [ngx.components.UIStyle-1667232073450]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            text-align: right;
+                            '
+                ↓Style [ngx.components.UIStyle-1667232073453]: 
+                  styleContent: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                        →: |
+                          '	background-color: #F7F7F7;
+                          '
+            ↓Style [ngx.components.UIStyle-1667231936105]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      '	padding: unset !important;
+                      '
+          ↓Style [ngx.components.UIStyle-1667231623934]: 
+            styleContent: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                  →: |
+                    '/**
+                     * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                     * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                     * They are set using custom property notation, e.g.: --main-color: black;
+                     * and are accessed using the var() function, e.g.: color: var(--main-color);
+                     * You can find below your component''s properties you can customize within the page.
+                     * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                     * For more informations see https://ionicframework.com/docs/theming.
+                    **/
+                    //--background	//Background of the card
+                    //--color	//Color of the card
+                    border: 1px solid #D4D5D7;
+                    box-shadow: unset;
+                    '
+      ↓colStatut [ngx.components.UIDynamicElement-1667232140958]: 
+        beanData: '{"ionBean":"GridCol"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1667232140961]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓CardHeader [ngx.components.UIDynamicElement-1667232140964]: 
+            beanData: '{"ionBean":"CardHeader"}'
+            tagName: ion-card-header
+            ↓CardTitle [ngx.components.UIDynamicElement-1667232140967]: 
+              beanData: '{"ionBean":"CardTitle"}'
+              tagName: ion-card-title
+              ↓TextItem [ngx.components.UIDynamicElement-1667232140970]: 
+                beanData: '{"ionBean":"TextItem"}'
+                tagName: ion-text
+                ↓Text [ngx.components.UIText-1667232140973]: 
+                  textValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                      - MobileSmartSourceType: plain:Statut
+            ↓Style [ngx.components.UIStyle-1667232140976]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      '	background-color: #E8E9EB;
+                      	border-bottom: 1px solid #D4D5D7;
+                      	box-shadow: unset;
+                      '
+          ↓CardContent [ngx.components.UIDynamicElement-1667232140979]: 
+            beanData: '{"ionBean":"CardContent"}'
+            tagName: ion-card-content
+            ↓Grid [ngx.components.UIDynamicElement-1667232140982]: 
+              beanData: '{"ionBean":"Grid","Height":"plain:100%"}'
+              tagName: ion-grid
+              ↓GridRow [ngx.components.UIDynamicElement-1667232140985]: 
+                beanData: |
+                  '{
+                   "ionBean": "GridRow",
+                   "Height": "plain",
+                   "FlexAlignement": "plain:ion-align-items-baseline"
+                  }'
+                tagName: ion-row
+                ↓GridCol [ngx.components.UIDynamicElement-1667232140988]: 
+                  beanData: '{"ionBean":"GridCol"}'
+                  tagName: ion-col
+                  ↓Text [ngx.components.UIText-1667232140991]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                        - MobileSmartSourceType: plain:Dossier Clos
+                  ↓Style [ngx.components.UIStyle-1667232140994]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            font-size: 15px !important;
+                            '
+                ↓GridCol1 [ngx.components.UIDynamicElement-1667232140997]: 
+                  beanData: '{"ionBean":"GridCol","FlexAlignement":"plain:ion-align-self-baseline"}'
+                  tagName: ion-col
+                  ↓Chip [ngx.components.UIDynamicElement-1667232141000]: 
+                    beanData: '{"ionBean":"Chip"}'
+                    tagName: ion-chip
+                    ↓Label [ngx.components.UIDynamicElement-1667232141003]: 
+                      beanData: '{"ionBean":"Label"}'
+                      tagName: ion-label
+                      ↓Text [ngx.components.UIText-1667232141006]: 
+                        textValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                            - MobileSmartSourceType: plain:3129
+                    ↓Style [ngx.components.UIStyle-1667232141009]: 
+                      styleContent: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                            →: |
+                              '/**
+                               * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                               * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                               * They are set using custom property notation, e.g.: --main-color: black;
+                               * and are accessed using the var() function, e.g.: color: var(--main-color);
+                               * You can find below your component''s properties you can customize within the page.
+                               * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                               * For more informations see https://ionicframework.com/docs/theming.
+                              **/
+                              //--background	//Background of the chip
+                              //--color	//Color of the chip
+                              --background: #96B6D4;
+                              '
+                  ↓Style [ngx.components.UIStyle-1667232141012]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            text-align: right;
+                            '
+                ↓Style [ngx.components.UIStyle-1667232141015]: 
+                  styleContent: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                        →: |
+                          '	background-color: #F7F7F7;
+                          '
+              ↓GridRow1 [ngx.components.UIDynamicElement-1667232141018]: 
+                beanData: |
+                  '{
+                   "ionBean": "GridRow",
+                   "Height": "plain",
+                   "FlexAlignement": "plain:ion-align-items-baseline"
+                  }'
+                tagName: ion-row
+                ↓GridCol [ngx.components.UIDynamicElement-1667232141021]: 
+                  beanData: '{"ionBean":"GridCol"}'
+                  tagName: ion-col
+                  ↓Text [ngx.components.UIText-1667232141024]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                        - MobileSmartSourceType: plain:Dossier en cours
+                  ↓Style [ngx.components.UIStyle-1667232141027]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            font-size: 15px !important;
+                            '
+                ↓GridCol1 [ngx.components.UIDynamicElement-1667232141030]: 
+                  beanData: '{"ionBean":"GridCol","FlexAlignement":"plain:ion-align-self-baseline"}'
+                  tagName: ion-col
+                  ↓Chip [ngx.components.UIDynamicElement-1667232141033]: 
+                    beanData: '{"ionBean":"Chip"}'
+                    tagName: ion-chip
+                    ↓Label [ngx.components.UIDynamicElement-1667232141036]: 
+                      beanData: '{"ionBean":"Label"}'
+                      tagName: ion-label
+                      ↓Text [ngx.components.UIText-1667232141039]: 
+                        textValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                            - MobileSmartSourceType: plain:20
+                    ↓Style [ngx.components.UIStyle-1667232141042]: 
+                      styleContent: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                            →: |
+                              '/**
+                               * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                               * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                               * They are set using custom property notation, e.g.: --main-color: black;
+                               * and are accessed using the var() function, e.g.: color: var(--main-color);
+                               * You can find below your component''s properties you can customize within the page.
+                               * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                               * For more informations see https://ionicframework.com/docs/theming.
+                              **/
+                              //--background	//Background of the chip
+                              //--color	//Color of the chip
+                              --background: #96B6D4;
+                              '
+                  ↓Style [ngx.components.UIStyle-1667232141045]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            text-align: right;
+                            '
+              ↓Style [ngx.components.UIStyle-1667232141048]: 
+                styleContent: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                      →: |
+                        '	padding: unset !important;
+                        '
+              ↓GridRow2 [ngx.components.UIDynamicElement-1667232141051]: 
+                beanData: |
+                  '{
+                   "ionBean": "GridRow",
+                   "Height": "plain",
+                   "FlexAlignement": "plain:ion-align-items-baseline"
+                  }'
+                tagName: ion-row
+                ↓GridCol [ngx.components.UIDynamicElement-1667232141054]: 
+                  beanData: '{"ionBean":"GridCol"}'
+                  tagName: ion-col
+                  ↓Text [ngx.components.UIText-1667232141057]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                        - MobileSmartSourceType: plain:En convalescence
+                  ↓Style [ngx.components.UIStyle-1667232141060]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            font-size: 15px !important;
+                            '
+                ↓GridCol1 [ngx.components.UIDynamicElement-1667232141063]: 
+                  beanData: '{"ionBean":"GridCol","FlexAlignement":"plain:ion-align-self-baseline"}'
+                  tagName: ion-col
+                  ↓Chip [ngx.components.UIDynamicElement-1667232141066]: 
+                    beanData: '{"ionBean":"Chip"}'
+                    tagName: ion-chip
+                    ↓Label [ngx.components.UIDynamicElement-1667232141069]: 
+                      beanData: '{"ionBean":"Label"}'
+                      tagName: ion-label
+                      ↓Text [ngx.components.UIText-1667232141072]: 
+                        textValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                            - MobileSmartSourceType: plain:128
+                    ↓Style [ngx.components.UIStyle-1667232141075]: 
+                      styleContent: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                            →: |
+                              '/**
+                               * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                               * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                               * They are set using custom property notation, e.g.: --main-color: black;
+                               * and are accessed using the var() function, e.g.: color: var(--main-color);
+                               * You can find below your component''s properties you can customize within the page.
+                               * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                               * For more informations see https://ionicframework.com/docs/theming.
+                              **/
+                              //--background	//Background of the chip
+                              //--color	//Color of the chip
+                              --background: #96B6D4;
+                              '
+                  ↓Style [ngx.components.UIStyle-1667232141078]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            text-align: right;
+                            '
+                ↓Style [ngx.components.UIStyle-1667232141081]: 
+                  styleContent: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                        →: |
+                          '	background-color: #F7F7F7;
+                          '
+              ↓GridRow3 [ngx.components.UIDynamicElement-1667232141084]: 
+                beanData: |
+                  '{
+                   "ionBean": "GridRow",
+                   "Height": "plain",
+                   "FlexAlignement": "plain:ion-align-items-baseline"
+                  }'
+                tagName: ion-row
+                ↓GridCol [ngx.components.UIDynamicElement-1667232141087]: 
+                  beanData: '{"ionBean":"GridCol"}'
+                  tagName: ion-col
+                  ↓Text [ngx.components.UIText-1667232141090]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                        - MobileSmartSourceType: plain:En preparation de sortis
+                  ↓Style [ngx.components.UIStyle-1667232141093]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            font-size: 15px !important;
+                            '
+                ↓GridCol1 [ngx.components.UIDynamicElement-1667232141096]: 
+                  beanData: '{"ionBean":"GridCol","FlexAlignement":"plain:ion-align-self-baseline"}'
+                  tagName: ion-col
+                  ↓Chip [ngx.components.UIDynamicElement-1667232141099]: 
+                    beanData: '{"ionBean":"Chip"}'
+                    tagName: ion-chip
+                    ↓Label [ngx.components.UIDynamicElement-1667232141102]: 
+                      beanData: '{"ionBean":"Label"}'
+                      tagName: ion-label
+                      ↓Text [ngx.components.UIText-1667232141105]: 
+                        textValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                            - MobileSmartSourceType: plain:5
+                    ↓Style [ngx.components.UIStyle-1667232141108]: 
+                      styleContent: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                            →: |
+                              '/**
+                               * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                               * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                               * They are set using custom property notation, e.g.: --main-color: black;
+                               * and are accessed using the var() function, e.g.: color: var(--main-color);
+                               * You can find below your component''s properties you can customize within the page.
+                               * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                               * For more informations see https://ionicframework.com/docs/theming.
+                              **/
+                              //--background	//Background of the chip
+                              //--color	//Color of the chip
+                              --background: #96B6D4;
+                              '
+                  ↓Style [ngx.components.UIStyle-1667232141111]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            text-align: right;
+                            '
+              ↓GridRow4 [ngx.components.UIDynamicElement-1667232141114]: 
+                beanData: |
+                  '{
+                   "ionBean": "GridRow",
+                   "Height": "plain",
+                   "FlexAlignement": "plain:ion-align-items-baseline"
+                  }'
+                tagName: ion-row
+                ↓GridCol [ngx.components.UIDynamicElement-1667232141117]: 
+                  beanData: '{"ionBean":"GridCol"}'
+                  tagName: ion-col
+                  ↓Text [ngx.components.UIText-1667232141120]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                        - MobileSmartSourceType: plain:San. consentement en attente
+                  ↓Style [ngx.components.UIStyle-1667232141123]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            font-size: 15px !important;
+                            '
+                ↓GridCol1 [ngx.components.UIDynamicElement-1667232141126]: 
+                  beanData: '{"ionBean":"GridCol","FlexAlignement":"plain:ion-align-self-baseline"}'
+                  tagName: ion-col
+                  ↓Chip [ngx.components.UIDynamicElement-1667232141129]: 
+                    beanData: '{"ionBean":"Chip"}'
+                    tagName: ion-chip
+                    ↓Label [ngx.components.UIDynamicElement-1667232141132]: 
+                      beanData: '{"ionBean":"Label"}'
+                      tagName: ion-label
+                      ↓Text [ngx.components.UIText-1667232141135]: 
+                        textValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                            - MobileSmartSourceType: plain:7
+                    ↓Style [ngx.components.UIStyle-1667232141138]: 
+                      styleContent: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                            →: |
+                              '/**
+                               * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                               * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                               * They are set using custom property notation, e.g.: --main-color: black;
+                               * and are accessed using the var() function, e.g.: color: var(--main-color);
+                               * You can find below your component''s properties you can customize within the page.
+                               * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                               * For more informations see https://ionicframework.com/docs/theming.
+                              **/
+                              //--background	//Background of the chip
+                              //--color	//Color of the chip
+                              --background: #96B6D4;
+                              '
+                  ↓Style [ngx.components.UIStyle-1667232141141]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '/**
+                             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                             * They are set using custom property notation, e.g.: --main-color: black;
+                             * and are accessed using the var() function, e.g.: color: var(--main-color);
+                             * You can find below your component''s properties you can customize within the page.
+                             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                             * For more informations see https://ionicframework.com/docs/theming.
+                            **/
+                            //--ion-grid-column-padding	//Padding for the Column
+                            //--ion-grid-column-padding-lg	//Padding for the Column on lg screens and up
+                            //--ion-grid-column-padding-md	//Padding for the Column on md screens and up
+                            //--ion-grid-column-padding-sm	//Padding for the Column on sm screens and up
+                            //--ion-grid-column-padding-xl	//Padding for the Column on xl screens and up
+                            //--ion-grid-column-padding-xs	//Padding for the Column on xs screens and up
+                            //--ion-grid-columns	//The number of total Columns in the Grid
+                            text-align: right;
+                            '
+                ↓Style [ngx.components.UIStyle-1667232141144]: 
+                  styleContent: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                        →: |
+                          '	background-color: #F7F7F7;
+                          '
+            ↓Style [ngx.components.UIStyle-1667232141147]: 
+              styleContent: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      '	padding: unset !important;
+                      '
+          ↓Style [ngx.components.UIStyle-1667232141150]: 
+            styleContent: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                  →: |
+                    '/**
+                     * Custom properties (sometimes referred to as CSS variables or cascading variables)
+                     * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+                     * They are set using custom property notation, e.g.: --main-color: black;
+                     * and are accessed using the var() function, e.g.: color: var(--main-color);
+                     * You can find below your component''s properties you can customize within the page.
+                     * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+                     * For more informations see https://ionicframework.com/docs/theming.
+                    **/
+                    //--background	//Background of the card
+                    //--color	//Color of the card
+                    border: 1px solid #D4D5D7;
+                    box-shadow: unset;
+                    '
+    ↓rowAgGrid [ngx.components.UIDynamicElement-1667229993697]: 
+      beanData: '{"ionBean":"GridRow","Height":"plain"}'
+      tagName: ion-row
+      ↓colAgGrid [ngx.components.UIDynamicElement-1667229993699]: 
+        beanData: '{"ionBean":"GridCol"}'
+        tagName: ion-col
+        ↓UseSharedComponent [ngx.components.UIUseShared-1667230028396]: 
+          sharedcomponent: lib_ExtendedComponents_ui_ngx.MobileApplication.Application.agGrid
+          ↓pagination [ngx.components.UIUseVariable-1667230043283]: 
+            comment: 'boolean: true (default) or false'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:true
+          ↓paginationPageSize [ngx.components.UIUseVariable-1667230043285]: 
+            comment: 'integer: 10 by default'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:10
+          ↓rowSelection [ngx.components.UIUseVariable-1667230043287]: 
+            comment: 'string: ''single'' (default) or ''multiple'''
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'single'
+          ↓rowDeselection [ngx.components.UIUseVariable-1667230043289]: 
+            comment: 'boolean: true (default) or false'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:true
+          ↓defaultColDef [ngx.components.UIUseVariable-1667230043291]: 
+            comment: 'default is {hide: false, editable: true, sortable: true, resizable: true, filter: true, checkboxSelection: false, singleClickEdit: false}'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{hide: false, editable: true, sortable: true, resizable: true, filter: true, checkboxSelection: false, singleClickEdit: false}'
+          ↓columnDefs [ngx.components.UIUseVariable-1667230043293]: 
+            comment: 'Array of columnDef {headerName: ''headerName'', field: ''fieldName''} objects'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:[{headerName: ''Etablissement'', field: ''etablissement''}, {headerName: ''Numéro de dossier'', field: ''numDeDossier''}, {headerName: ''Nom du patient'', field: ''nomDuPatient''}, {headerName: ''Statut'', field: ''statut''}, {headerName: ''Date de création'', field: ''dateDeCreation''}, {headerName: ''Dernière mise à jour'', field: ''derniereMiseAJour''}, {headerName: ''Action'', field: ''action''}]'
+          ↓rowData [ngx.components.UIUseVariable-1667230043295]: 
+            comment: 'Array of row { fieldName1: ''value1'', fieldName2: ''value2'', fieldName3: true, ...} objects'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: |
+                    'script:[ 
+                        {
+                            etablissement: ''HEGP, HOPITAL EUROPEEN GEORGES POMPIDOU, PARIS AP-HP'',
+                            numDeDossier: 1254, 
+                            nomDuPatient: ''Louis Dupont'',
+                            statut: ''Dossier en cours'',
+                            dateDeCreation: ''11/10/2022 17:35'',
+                            derniereMiseAJour: ''11/10/2022 17:43'',
+                            action: ''''
+                        },
+                        {
+                            etablissement: ''COCHIN, CHU PARIS AP-HP'',
+                            numDeDossier: 6845, 
+                            nomDuPatient: ''Jean Dupont'',
+                            statut: ''Sign consentement en attente'',
+                            dateDeCreation: ''11/10/2022 13:37'',
+                            derniereMiseAJour: ''11/10/2022 13:42'',
+                            action: ''''
+                        },
+                        {
+                            etablissement: ''HEGP, HOPITAL EUROPEEN GEORGES POMPIDOU, PARIS AP-HP'',
+                            numDeDossier: 546, 
+                            nomDuPatient: ''Jonh Doe'',
+                            statut: ''Dossier en cours'',
+                            dateDeCreation: ''11/10/2022 15:17'',
+                            derniereMiseAJour: ''11/10/2022 15:22'',
+                            action: ''''
+                        }
+                    ]'
+          ↓width [ngx.components.UIUseVariable-1667230043297]: 
+            comment: width value in % or px
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'100%'
+          ↓height [ngx.components.UIUseVariable-1667230043299]: 
+            comment: height is 'auto' or value in % or px
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'auto'
+          ↓class [ngx.components.UIUseVariable-1667230043301]: 
+            comment: |
+              'One of the themes provided here :
+              
+              https://www.ag-grid.com/javascript-grid-themes-provided/
+              
+              Also be shure to add the theme in the Theme object as :
+              
+              @import "../../node_modules/ag-grid-community/dist/styles/ag-theme-balham-dark/sass/ag-theme-balham-dark.scss";
+              
+              
+              
+              '
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'ag-theme-balham'
+          ↓id [ngx.components.UIUseVariable-1667230043303]: 
+            comment: An Optional ID
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:''
+          ↓suppressCellSelection [ngx.components.UIUseVariable-1667230043305]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:false
+          ↓suppressRowClickSelection [ngx.components.UIUseVariable-1667230043307]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:false
+          ↓overlayLoadingTemplate [ngx.components.UIUseVariable-1667230043309]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:''
+          ↓overlayNoRowsTemplate [ngx.components.UIUseVariable-1667230043311]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:''
+          ↓rowHeight [ngx.components.UIUseVariable-1667230043313]: 
+            comment: Height of the row in pixels as a string
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'25'
+          ↓wrapperClass [ngx.components.UIUseVariable-1667230043315]: 
+            comment: Height of the row in pixels as a string
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:''
+          ↓rowModelType [ngx.components.UIUseVariable-1667230043317]: 
+            comment: Row model type
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'clientSide'
+          ↓maxBlocksInCache [ngx.components.UIUseVariable-1667230043319]: 
+            comment: How many blocks to keep in the store. Default is no limit, so every requested block is kept
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:''
+          ↓autoSizeColumns [ngx.components.UIUseVariable-1667230043321]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:true
+          ↓accessibility [ngx.components.UIUseVariable-1667230043323]: 
+            comment: 'boolean: true (default) or false'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:false
+          ↓ariaLabel [ngx.components.UIUseVariable-1667230043325]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:''
+          ↓Event [ngx.components.UIControlEvent-1667230045587]: 
+            attrName: (CellClicked)
+            comment: Fired when a cell is clicked. Data will be the agGrid event
+            eventName: CellClicked
+          ↓Event1 [ngx.components.UIControlEvent-1667230045589]: 
+            attrName: (RowClicked)
+            comment: Fired when a row is clicked. Data will be the agGrid event
+            eventName: RowClicked
+          ↓Event2 [ngx.components.UIControlEvent-1667230045591]: 
+            attrName: (RowSelected)
+            comment: Fired when a row is selected. Data will be the agGrid event
+            eventName: RowSelected
+          ↓Event3 [ngx.components.UIControlEvent-1667230045593]: 
+            attrName: (SortChanged)
+            comment: Fired when a a column is sorted. Data will be the agGrid event
+            eventName: SortChanged
+          ↓Event4 [ngx.components.UIControlEvent-1667230045595]: 
+            attrName: (RowDataChanged)
+            comment: Fired when Row data changed. Data will be the agGrid event
+            eventName: RowDataChanged
+          ↓Event5 [ngx.components.UIControlEvent-1667230045597]: 
+            attrName: (CellValueChanged)
+            comment: Fired when A Cell is edited changed. Data will be the agGrid event
+            eventName: CellValueChanged
+          ↓Event6 [ngx.components.UIControlEvent-1667230045599]: 
+            attrName: (RowDoubleClicked)
+            comment: Fired when A Cell is edited changed. Data will be the agGrid event
+            eventName: RowDoubleClicked
+          ↓Event7 [ngx.components.UIControlEvent-1667230045601]: 
+            attrName: (SelectionChanged)
+            comment: Fired when selectionChange. Data will be the agGrid event
+            eventName: SelectionChanged
+          ↓Event8 [ngx.components.UIControlEvent-1667230045603]: 
+            attrName: (GridReady)
+            comment: Fired when the Grid is ready. Data will be the agGrid event
+            eventName: GridReady
+          ↓Event9 [ngx.components.UIControlEvent-1667230045605]: 
+            attrName: (GetRows)
+            comment: Fire when the RowModelType is 'infinite'. Excepts fromatted data into a agGridUpdateRows action
+            eventName: GetRows
+  ↓Style [ngx.components.UIStyle-1667228381485]: 
+    styleContent: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+          →: |
+            '/**
+             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+             * They are set using custom property notation, e.g.: --main-color: black;
+             * and are accessed using the var() function, e.g.: color: var(--main-color);
+             * You can find below your component''s properties you can customize within the page.
+             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+             * For more informations see https://ionicframework.com/docs/theming.
+            **/
+            //--background	//Background of the content
+            //--color	//Color of the content
+            //--keyboard-offset	//Keyboard offset of the content
+            //--offset-bottom	//Offset bottom of the content
+            //--offset-top	//Offset top of the content
+            //--padding-bottom	//Bottom padding of the content
+            //--padding-end	//Right padding if direction is left-to-right, and left padding if direction is right-to-left of the content
+            //--padding-start	//Left padding if direction is left-to-right, and right padding if direction is right-to-left of the content
+            //--padding-top	//Top padding of the content
+            --background: #E4E5E6;
+            '
