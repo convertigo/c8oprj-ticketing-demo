@@ -40,6 +40,7 @@ Describes the mobile application global properties
 
 ### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") Page
 
-My First Page as root page
+<h2>Ticketing Dashboard</h2>
+<img src="doc/ticketing_demo_dashboard.png" />
 </p></blockquote></details>
 </p></blockquote></details>

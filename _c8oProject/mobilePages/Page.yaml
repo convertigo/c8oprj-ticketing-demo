@@ -1,5 +1,7 @@
 ↑isRoot: true
-comment: My First Page as root page
+comment: |
+  <h2>Ticketing Dashboard</h2>
+  <img src="doc/ticketing_demo_dashboard.png" />
 preloadPriority: high
 scriptContent: 
   - xmlizable: 
