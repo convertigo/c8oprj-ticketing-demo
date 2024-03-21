@@ -1,11 +1,11 @@
-↑convertigo: 8.3.0.m006
+↑convertigo: 8.0.0.m006
 ↓ticketing_demo [core.Project]: 
   comment: A ticketing Dashbaord Demo
   corsOrigin: =Origin
   version: 1.0
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
   ↓lib_ExtendedComponents_ui_ngx_reference [references.ProjectSchemaReference]: 
-    projectName: lib_ExtendedComponents_ui_ngx=https://github.com/convertigo/c8oprj-lib-extended-components-ui-ngx.git:branch=8.3.0.0
+    projectName: lib_ExtendedComponents_ui_ngx=https://github.com/convertigo/c8oprj-lib-extended-components-ui-ngx.git:branch=8.0.0.3
   ↓Project_reference [references.ProjectSchemaReference]: 
     comment: ngx builder template
     projectName: mobilebuilder_tpl_8_1_0_ngx=https://github.com/convertigo/c8oprj-mobilebuilder-tpl/archive/mobilebuilder_tpl_8_1_0_ngx.zip
