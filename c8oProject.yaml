@@ -1,6 +1,6 @@
 ↑convertigo: 8.3.0.m006
 ↓ticketing_demo [core.Project]: 
-  comment: Convertigo NGX builder Project
+  comment: A ticketing Dashbaord Demo
   corsOrigin: =Origin
   version: 1.0
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
