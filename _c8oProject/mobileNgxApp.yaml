@@ -446,3 +446,34 @@ tplProjectName: mobilebuilder_tpl_8_1_0_ngx
           /** Ionic CSS Variables **/
           
           
+↓AgGridStyle [ngx.components.UIStyle-1711038404909]: 
+  styleContent: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+        →: |
+          '@import "ag-grid-community/src/styles/ag-grid.scss";
+          @import "ag-grid-community/src/styles/ag-theme-material/sass/ag-theme-material-mixin";
+          @import "ag-grid-community/src/styles/ag-theme-alpine/sass/ag-theme-alpine-mixin";
+          @import "ag-grid-community/src/styles/ag-theme-balham/sass/ag-theme-balham-mixin";
+          .ag-theme-material {
+              @include ag-theme-material((
+                  // use theme parameters where possible
+                  //row background color when selected
+                  //selected-row-background-color:rgba(0, 123, 255, 0.3)
+              ));
+          }
+          .ag-theme-alpine{
+              @include ag-theme-alpine((
+                  // use theme parameters where possible
+                  //row background color when selected
+                  //selected-row-background-color:rgba(0, 123, 255, 0.3)
+              ));
+          }
+          .ag-theme-balham {
+              @include ag-theme-balham((
+                  // use theme parameters where possible
+                  //row background color when selected
+                  //selected-row-background-color:rgba(0, 123, 255, 0.3)
+              ));
+          }'

@@ -61,7 +61,7 @@ title: First page
   comment: Page content
   tagName: ion-content
   ↓Grid [ngx.components.UIDynamicElement-1667222069623]: 
-    beanData: '{"ionBean":"Grid","Height":"plain:100%"}'
+    beanData: '{"ionBean":"Grid"}'
     tagName: ion-grid
     ↓rowBreadcrumb [ngx.components.UIDynamicElement-1667222069625]: 
       beanData: '{"ionBean":"GridRow","Height":"plain"}'
@@ -662,7 +662,7 @@ title: First page
             beanData: '{"ionBean":"CardContent"}'
             tagName: ion-card-content
             ↓Grid [ngx.components.UIDynamicElement-1667230787249]: 
-              beanData: '{"ionBean":"Grid","Height":"plain:100%"}'
+              beanData: '{"ionBean":"Grid"}'
               tagName: ion-grid
               ↓GridRow [ngx.components.UIDynamicElement-1667230787255]: 
                 beanData: |
@@ -1243,7 +1243,7 @@ title: First page
             beanData: '{"ionBean":"CardContent"}'
             tagName: ion-card-content
             ↓Grid [ngx.components.UIDynamicElement-1667232140982]: 
-              beanData: '{"ionBean":"Grid","Height":"plain:100%"}'
+              beanData: '{"ionBean":"Grid"}'
               tagName: ion-grid
               ↓GridRow [ngx.components.UIDynamicElement-1667232140985]: 
                 beanData: |
